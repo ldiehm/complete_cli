@@ -8,7 +8,7 @@ import (
 	"context"
 	"encoding/json"
 
-	//"fmt"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -18,7 +18,8 @@ import (
 	"github.com/shurcooL/githubv4"
 
 	"github.com/go-git/go-git/v5"
-	"github.com/paingp/ece461-project-cli/ratom/metrics"
+	metrics "ece461-project-cli/ratom/metrics"
+	
 )
 
 var GITHUB_TOKEN string
@@ -31,6 +32,9 @@ type Module struct {
 	BusFactor   float32
 	RespMaint   float32
 	License     bool
+
+	versionPinning_score float32
+	codeReviews_score float32
 }
 //Function to get the GitHub URL from the npmurl input
 func getGithubUrl(url string) string {
@@ -126,16 +130,21 @@ func Analyze(url string, client *http.Client) Module {
 	var rampUp float32
 	var license bool
 	var netScore float32
+	var versionPinning_score float32
+	var codeReviews_score float32
 
 	gitUrl := getGithubUrl(url)
 
 	//Checking for url availability
 	if gitUrl == "" {
 		metrics.Functions = append(metrics.Functions, "Can't find valid endpoint for input: "+url)
-		return Module{url, -1, -1, -1, -1, -1, false}
+		return Module{url, -1, -1, -1, -1, -1, false, -1, -1}
 	}
 
 	dir := Clone(gitUrl)
+	fmt.Println(gitUrl)
+
+	fmt.Println(dir)
 
 	endpoint := getEndpoint(gitUrl)
 	lineNumb := metrics.File_line()
@@ -146,7 +155,7 @@ func Analyze(url string, client *http.Client) Module {
 	//Error checking for invalid endpoint
 	if error != nil {
 		metrics.Functions = append(metrics.Functions, "HTTP GET request to  "+endpoint+" returns an error on line "+metrics.File_line())
-		return Module{url, -1, -1, -1, -1, -1, false}
+		return Module{url, -1, -1, -1, -1, -1, false, -1, -1}
 	}
 
 	if resp.StatusCode == http.StatusOK {
@@ -187,30 +196,51 @@ func Analyze(url string, client *http.Client) Module {
 			Data.Repository.CommitComments.TotalCount = 0
 		}
 		//Metric function line call with respective metric scores
-		correctnessScore = metrics.Correctness(jsonRes)
+		correctnessScore = 4
+		// correctnessScore = metrics.correctnessScore(jsonRes)
 		lineNumb := metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.Correctness called on score.go at line "+lineNumb)
 
-		busFactor = metrics.BusFactor(jsonRes)
+		busFactor = 4
+		// busFactor = metrics.busFactor(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.BusFactor called on score.go at line "+lineNumb)
 
-		rampUp = metrics.RampUp(jsonRes, Data.Repository.CommitComments.TotalCount)
+		rampUp = 4
+		// rampUp = metrics.rampUp(jsonRes, Data.Repository.CommitComments.TotalCount)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.RampUp called on score.go at line "+lineNumb)
 
-		responsiveMaintainer = metrics.ResponsiveMaintainer(jsonRes)
+		responsiveMaintainer = 4
+		// responsiveMaintainer = metrics.responsiveMaintainer(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.ResponsiveMaintainer called on score.go at line "+lineNumb)
 
-		license = metrics.License(dir)
+		license = false 
+		// license = metrics.license(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.License called on score.go at line "+lineNumb)
 
-		netScore = metrics.NetScore(correctnessScore, busFactor, rampUp, responsiveMaintainer, license)
+		//NEW STUFF
+
+		versionPinning_score = metrics.versionPinning(gitUrl)
+		// versionPinning_score = 10
+		lineNumb = metrics.File_line()
+		metrics.Functions = append(metrics.Functions, "Function: metrics.versionPinning called on score.go at line "+lineNumb)
+
+		codeReviews_score = metrics.codeReviews(gitUrl)
+		// codeReviews_score = 10
+		lineNumb = metrics.File_line()
+		metrics.Functions = append(metrics.Functions, "Function: metrics.codeReviews called on score.go at line "+lineNumb)
+
+		// netScore = 4
+		netScore = metrics.NetScore(correctnessScore, busFactor, rampUp, responsiveMaintainer, license, versionPinning_score, codeReviews_score)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.NetScore called on score.go at line "+lineNumb)
-	} else {
+	
+
+	
+		} else {
 		//Invalid endpoint
 		netScore = -1.0
 		rampUp = -1.0
@@ -224,6 +254,6 @@ func Analyze(url string, client *http.Client) Module {
 
 	defer resp.Body.Close()
 
-	m := Module{url, netScore, rampUp, correctnessScore, busFactor, responsiveMaintainer, license}
+	m := Module{url, netScore, rampUp, correctnessScore, busFactor, responsiveMaintainer, license, versionPinning_score, codeReviews_score}
 	return m
 }

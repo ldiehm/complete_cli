@@ -1,0 +1,540 @@
+Command Successful:    Thu Mar  9 11:24:58 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 113
+Function: loggerMain in cli.cpp being called on 125
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Thu Mar  9 11:26:39 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Thu Mar  9 11:27:25 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Thu Mar  9 11:27:57 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Thu Mar  9 11:28:10 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 141
+Function: metrics.Correctness called on score.go at line 191
+Function: metrics.BusFactor called on score.go at line 195
+Function: metrics.RampUp called on score.go at line 199
+Function: metrics.ResponsiveMaintainer called on score.go at line 203
+Function: metrics.License called on score.go at line 207
+Function: metrics.NetScore called on score.go at line 211
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 0.44202134 0.1 0.47363234 0.8 0.385 true}
+
+
+Command Successful:    Sun Mar 19 15:06:44 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 141
+Function: metrics.Correctness called on score.go at line 191
+Function: metrics.BusFactor called on score.go at line 195
+Function: metrics.RampUp called on score.go at line 199
+Function: metrics.ResponsiveMaintainer called on score.go at line 203
+Function: metrics.License called on score.go at line 207
+Function: metrics.NetScore called on score.go at line 211
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 0.47444823 0.1 0.47413778 0.8 0.514 true}
+
+
+Command Successful:    Tue Mar 21 12:35:38 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 141
+Function: metrics.Correctness called on score.go at line 191
+Function: metrics.BusFactor called on score.go at line 195
+Function: metrics.RampUp called on score.go at line 199
+Function: metrics.ResponsiveMaintainer called on score.go at line 203
+Function: metrics.License called on score.go at line 207
+Function: metrics.NetScore called on score.go at line 211
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 0.4744672 0.1 0.4741918 0.8 0.514 true}
+
+
+Command Successful:    Sat Mar 25 15:46:03 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 22
+Function: loggerMain being called on 40
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sat Mar 25 15:46:27 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 46
+Function: loggerMain being called on 64
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Failed:        Sat Mar 25 15:46:45 2023
+Command ran was:       ./run https://github.com/cloudinary/cloudinary_npm
+
+Command Failed:        Sat Mar 25 15:46:54 2023
+Command ran was:       ./run https://github.com/cloudinary/cloudinary_npm
+
+Command Successful:    Sat Mar 25 15:48:07 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 141
+Function: metrics.Correctness called on score.go at line 191
+Function: metrics.BusFactor called on score.go at line 195
+Function: metrics.RampUp called on score.go at line 199
+Function: metrics.ResponsiveMaintainer called on score.go at line 203
+Function: metrics.License called on score.go at line 207
+Function: metrics.NetScore called on score.go at line 211
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 0.44223604 0.1 0.47424567 0.8 0.385 true}
+
+
+Command Successful:    Sun Mar 26 11:34:21 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 11:35:06 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 11:35:52 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 11:35:53 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 142
+Function: metrics.Correctness called on score.go at line 192
+Function: metrics.BusFactor called on score.go at line 196
+Function: metrics.RampUp called on score.go at line 200
+Function: metrics.ResponsiveMaintainer called on score.go at line 204
+Function: metrics.License called on score.go at line 208
+Function: metrics.NetScore called on score.go at line 212
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4 4 4 4 4 true}
+
+
+Command Successful:    Sun Mar 26 11:37:10 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 11:37:11 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 144
+Function: metrics.Correctness called on score.go at line 194
+Function: metrics.BusFactor called on score.go at line 198
+Function: metrics.RampUp called on score.go at line 202
+Function: metrics.ResponsiveMaintainer called on score.go at line 206
+Function: metrics.License called on score.go at line 210
+Function: metrics.NetScore called on score.go at line 214
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4 4 4 4 4 true}
+
+
+Command Successful:    Sun Mar 26 12:09:33 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:09:35 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:10:06 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:10:08 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:12:07 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:12:09 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:13:40 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:13:46 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 228
+Function: metrics.codeReviews called on score.go at line 233
+Function: metrics.NetScore called on score.go at line 238
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 5.8 4 4 4 4 true 10 10}
+
+
+Command Successful:    Sun Mar 26 12:15:21 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:15:21 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 228
+Function: metrics.codeReviews called on score.go at line 233
+Function: metrics.NetScore called on score.go at line 238
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 5.8 4 4 4 4 false 10 10}
+
+
+Command Successful:    Sun Mar 26 12:19:16 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:19:18 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:19:53 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:19:53 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:30:09 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:30:26 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:30:28 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:31:25 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 228
+Function: metrics.codeReviews called on score.go at line 233
+Function: metrics.NetScore called on score.go at line 238
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 5.8 4 4 4 4 false 10 10}
+
+
+Command Successful:    Sun Mar 26 12:39:32 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:39:41 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:48:12 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:48:21 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:49:16 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:49:17 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:49:52 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:49:52 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:50:51 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:50:52 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:51:39 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 12:51:39 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:01:01 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:01:03 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54

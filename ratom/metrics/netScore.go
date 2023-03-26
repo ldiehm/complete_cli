@@ -24,6 +24,6 @@ func File_line() string {
 }
 
 // Combining the weighted sum of the analyzed factors
-func NetScore(correctness float32, busFactor float32, rampUp float32, responsiveness float32, license bool) float32 {
-	return float32(.35*correctness + .25*responsiveness + .2*busFactor + .2*rampUp)
+func NetScore(correctness float32, busFactor float32, rampUp float32, responsiveness float32, license bool, versionPinning_score float32, codeReviews_score float32) float32 {
+	return float32(.25*correctness + .15*responsiveness + .15*busFactor + .15*rampUp + .15*versionPinning_score + .15*codeReviews_score)
 }

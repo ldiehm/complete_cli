@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/paingp/ece461-project-cli/ratom/metrics"
+	"ece461-project-cli/ratom/metrics"
 )
 
 func LoggerVerbOne(output []Module) {

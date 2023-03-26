@@ -1,4 +1,5 @@
 #include "../headers/cli.h"
+#include <string>
 
 using namespace std;
 
@@ -92,23 +93,25 @@ int main(int argc, char *argv[]) {
         loggerMain(argv[1], lineNumbers);
     }
     else {
-        // Validating file name input
-        FILE *fileptr; 
-        fileptr = fopen(argv[1], "r");
+        // Validating file name input - changed by Luke Diehm on 3/2
 
-        if (!fileptr) {
-            free(fileptr);
-            fprintf(stdout, "Command did not match any of the following: \n./run build\n./run install\n./run URL_FILE");
-            fprintf(stdout, "\nor the file could not be found in the given path."); 
+        string input = argv[1];
+        // FILE *fileptr; 
+        // fileptr = fopen(argv[1], "r");
 
-            if (atoi(logLevel) != 0){
-                logError(1, argv[1]);
-            } 
-            exit(EXIT_FAILURE);
-        }
+        // if (!fileptr) {
+        //     free(fileptr);
+        //     fprintf(stdout, "Command did not match any of the following: \n./run build\n./run install\n./run URL_FILE");
+        //     fprintf(stdout, "\nor the file could not be found in the given path."); 
+
+        //     if (atoi(logLevel) != 0){
+        //         logError(1, argv[1]);
+        //     } 
+        //     exit(EXIT_FAILURE);
+        // }
 
         // Perform running 
-        fclose(fileptr);
+        // fclose(fileptr);
 
         // Running file analysis
         std::string lineN = std::to_string(__LINE__ - 1); 
