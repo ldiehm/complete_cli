@@ -7,7 +7,7 @@ import (
 )
 
 
-func versionPinning(gitUrl string) float32 {
+func VersionPinning(gitUrl string) float32 {
 	fmt.Println(gitUrl)
 	fmt.Println("codeReviews called")
 	
