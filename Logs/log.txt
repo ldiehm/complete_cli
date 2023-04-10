@@ -538,3 +538,1367 @@ Function: main in cli.cpp 'test' command called on line 116
 Function: loggerMain in cli.cpp being called on 128
 Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
 Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:19:08 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:19:18 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:21:57 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:21:59 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:24:08 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:24:14 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:24:18 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:36:54 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:36:59 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:37:09 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:37:58 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:38:02 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:38:03 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:43:46 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:43:51 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:49:57 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:50:00 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:50:03 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 150
+Function: metrics.Correctness called on score.go at line 201
+Function: metrics.BusFactor called on score.go at line 206
+Function: metrics.RampUp called on score.go at line 211
+Function: metrics.ResponsiveMaintainer called on score.go at line 216
+Function: metrics.License called on score.go at line 221
+Function: metrics.versionPinning called on score.go at line 228
+Function: metrics.codeReviews called on score.go at line 233
+Function: metrics.NetScore called on score.go at line 238
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 13:56:23 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:56:27 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:56:29 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 229
+Function: metrics.codeReviews called on score.go at line 234
+Function: metrics.NetScore called on score.go at line 239
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 13:57:08 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:57:20 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:57:24 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:57:31 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 229
+Function: metrics.codeReviews called on score.go at line 234
+Function: metrics.NetScore called on score.go at line 239
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 13:58:51 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:58:57 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 13:58:57 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 229
+Function: metrics.codeReviews called on score.go at line 234
+Function: metrics.NetScore called on score.go at line 239
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 13:59:28 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 202
+Function: metrics.BusFactor called on score.go at line 207
+Function: metrics.RampUp called on score.go at line 212
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 222
+Function: metrics.versionPinning called on score.go at line 229
+Function: metrics.codeReviews called on score.go at line 234
+Function: metrics.NetScore called on score.go at line 239
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 16:32:59 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 154
+Function: metrics.Correctness called on score.go at line 205
+Function: metrics.BusFactor called on score.go at line 210
+Function: metrics.RampUp called on score.go at line 215
+Function: metrics.ResponsiveMaintainer called on score.go at line 220
+Function: metrics.License called on score.go at line 225
+Function: metrics.versionPinning called on score.go at line 232
+Function: metrics.codeReviews called on score.go at line 237
+Function: metrics.NetScore called on score.go at line 242
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 16:33:35 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 155
+Function: metrics.Correctness called on score.go at line 206
+Function: metrics.BusFactor called on score.go at line 211
+Function: metrics.RampUp called on score.go at line 216
+Function: metrics.ResponsiveMaintainer called on score.go at line 221
+Function: metrics.License called on score.go at line 226
+Function: metrics.versionPinning called on score.go at line 233
+Function: metrics.codeReviews called on score.go at line 238
+Function: metrics.NetScore called on score.go at line 243
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 16:33:57 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Mar 26 16:33:59 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 155
+Function: metrics.Correctness called on score.go at line 206
+Function: metrics.BusFactor called on score.go at line 211
+Function: metrics.RampUp called on score.go at line 216
+Function: metrics.ResponsiveMaintainer called on score.go at line 221
+Function: metrics.License called on score.go at line 226
+Function: metrics.versionPinning called on score.go at line 233
+Function: metrics.codeReviews called on score.go at line 238
+Function: metrics.NetScore called on score.go at line 243
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 16:36:17 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 159
+Function: metrics.Correctness called on score.go at line 210
+Function: metrics.BusFactor called on score.go at line 215
+Function: metrics.RampUp called on score.go at line 220
+Function: metrics.ResponsiveMaintainer called on score.go at line 225
+Function: metrics.License called on score.go at line 230
+Function: metrics.versionPinning called on score.go at line 237
+Function: metrics.codeReviews called on score.go at line 242
+Function: metrics.NetScore called on score.go at line 247
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Mar 26 16:37:42 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 159
+Function: metrics.Correctness called on score.go at line 212
+Function: metrics.BusFactor called on score.go at line 217
+Function: metrics.RampUp called on score.go at line 222
+Function: metrics.ResponsiveMaintainer called on score.go at line 227
+Function: metrics.License called on score.go at line 232
+Function: metrics.versionPinning called on score.go at line 239
+Function: metrics.codeReviews called on score.go at line 244
+Function: metrics.NetScore called on score.go at line 249
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Mon Mar 27 12:38:25 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Mon Mar 27 12:38:25 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 158
+Function: metrics.Correctness called on score.go at line 211
+Function: metrics.BusFactor called on score.go at line 216
+Function: metrics.RampUp called on score.go at line 221
+Function: metrics.ResponsiveMaintainer called on score.go at line 226
+Function: metrics.License called on score.go at line 231
+Function: metrics.versionPinning called on score.go at line 238
+Function: metrics.codeReviews called on score.go at line 243
+Function: metrics.NetScore called on score.go at line 248
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Mon Mar 27 16:49:04 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Mon Mar 27 16:49:40 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Mon Mar 27 16:52:20 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Mon Mar 27 16:53:18 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Mon Mar 27 16:56:35 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Mon Mar 27 16:56:44 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Tue Mar 28 10:55:21 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Tue Mar 28 10:55:51 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Tue Mar 28 10:57:08 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Tue Mar 28 10:57:39 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Tue Mar 28 10:58:57 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Tue Mar 28 11:01:42 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Apr  2 18:27:22 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 7.735 0.1 4 0.8 4 false 20 20}
+
+
+Command Successful:    Sun Apr  2 18:41:01 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.735 0.1 4 0.8 4 false 0 20}
+
+
+Command Successful:    Sun Apr  2 18:41:27 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.735 0.1 4 0.8 4 false 0 20}
+
+
+Command Successful:    Sun Apr  2 18:43:52 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 18:44:41 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:03:09 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Apr  2 19:03:20 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:06:13 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Sun Apr  2 19:06:32 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:07:56 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:09:05 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:12:19 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:13:00 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:13:18 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:13:48 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:14:28 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:15:17 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:16:08 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:16:35 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Sun Apr  2 19:17:00 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Tue Apr  4 17:52:15 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.585 0.1 4 0.8 4 false -1 20}
+
+
+Command Successful:    Mon Apr 10 16:43:58 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Mon Apr 10 16:44:40 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Mon Apr 10 16:45:31 2023
+Command ran was:       ./run install
+
+________________Debugging Information________________
+Function: main in cli.cpp 'install' command called on line 23
+Function: loggerMain being called on 41
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+Command Successful:    Mon Apr 10 16:48:33 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.735 0.1 4 0.8 4 false 0 20}
+
+
+Command Successful:    Mon Apr 10 16:49:35 2023
+Command ran was:       ./run RUN_URL
+
+________________Debugging Information________________
+Function: main in cli.cpp 'test' command called on line 116
+Function: loggerMain in cli.cpp being called on 128
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54
+-------------------------------------
+For URL: https://github.com/cloudinary/cloudinary_npm
+Function: getEndpoint called on score.go at line 177
+Function: metrics.Correctness called on score.go at line 237
+Function: metrics.BusFactor called on score.go at line 242
+Function: metrics.RampUp called on score.go at line 247
+Function: metrics.ResponsiveMaintainer called on score.go at line 252
+Function: metrics.License called on score.go at line 257
+Function: metrics.versionPinning called on score.go at line 264
+Function: metrics.codeReviews called on score.go at line 269
+Function: metrics.NetScore called on score.go at line 274
+Function: ratom.Analyze called on main.go at line 150
+Function: SliceStable called on main.go at line 163
+
+Output:
+{https://github.com/cloudinary/cloudinary_npm 4.885 0.1 4 0.8 4 false 1 20}
+
+
+Command Successful:    Mon Apr 10 17:00:39 2023
+Command ran was:       ./run build
+
+________________Debugging Information________________
+Function: main in cli.cpp 'build' command called on line 47
+Function: loggerMain being called on 65
+Function: loggerMain  in logger.cpp creating log (verbosity 2) with function loggerUpdateTwo on line 144
+Function: loggerUpdateTwo in logger.cpp logging information on line 54

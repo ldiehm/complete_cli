@@ -15,10 +15,13 @@ import (
 	"os"
 	"strings"
 
+	"github.com/estebangarcia21/subprocess"
+
 	"github.com/shurcooL/githubv4"
 
 	"github.com/go-git/go-git/v5"
-	metrics "ece461-project-cli/ratom/metrics"
+	// "github.com/ldiehm/complete_cli/ratom/metrics"
+	"ece461-project-cli/ratom/metrics"
 	
 )
 
@@ -59,6 +62,7 @@ func getGithubUrl(url string) string {
 			}
 
 			bodyString := string(bodyBytes)
+
 			resBytes := []byte(bodyString)
 			var npmRes map[string]interface{}
 			_ = json.Unmarshal(resBytes, &npmRes)
@@ -121,6 +125,28 @@ func Clone(repo string) string {
 	}
 	return dir
 }
+
+func runGraphAPI(url string) string{
+	fmt.Println(url)
+	command := "python3 ratom/metrics/GraphQL.py " + url
+	r := subprocess.New(command, subprocess.Shell)
+	r.Exec()
+
+	dat, err := os.ReadFile("QueryOutput.txt")
+	if err != nil {
+		fmt.Println("PANICCCCCC")
+		// metrics.Functions = append(metrics.Functions, "Can't find valid endpoint for input: "+url)
+		return "FAIL"
+	}
+	command = "rm QueryOutput.txt"
+	r = subprocess.New(command, subprocess.Shell)
+	r.Exec()
+
+
+	return string(dat)
+}
+
+
 //Function to find and analyze the validity of the http url input
 func Analyze(url string, client *http.Client) Module {
 	//Metric variables
@@ -144,9 +170,10 @@ func Analyze(url string, client *http.Client) Module {
 	dir := Clone(gitUrl)
 	fmt.Println(gitUrl)
 
-	fmt.Println(dir)
-
 	endpoint := getEndpoint(gitUrl)
+	fmt.Println(dir)
+	fmt.Println(endpoint)
+	
 	lineNumb := metrics.File_line()
 	metrics.Functions = append(metrics.Functions, "Function: getEndpoint called on score.go at line "+lineNumb)
 
@@ -191,23 +218,32 @@ func Analyze(url string, client *http.Client) Module {
 
 		graphQLClient := githubv4.NewClient(client)
 		error = graphQLClient.Query(context.Background(), &Data, variables)
+
+		
 		if error != nil {
 			metrics.Functions = append(metrics.Functions, "GraphQL could not create a client in goLang on line "+metrics.File_line())
 			Data.Repository.CommitComments.TotalCount = 0
 		}
+
+
+		graphAPI_data := runGraphAPI(gitUrl)
+
+		fmt.Println(graphAPI_data)
+
+
 		//Metric function line call with respective metric scores
 		correctnessScore = 4
 		// correctnessScore = metrics.correctnessScore(jsonRes)
 		lineNumb := metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.Correctness called on score.go at line "+lineNumb)
 
-		busFactor = 4
-		// busFactor = metrics.busFactor(jsonRes)
+		// busFactor = 4
+		busFactor = metrics.BusFactor(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.BusFactor called on score.go at line "+lineNumb)
 
 		rampUp = 4
-		// rampUp = metrics.rampUp(jsonRes, Data.Repository.CommitComments.TotalCount)
+		rampUp = metrics.RampUp(jsonRes, Data.Repository.CommitComments.TotalCount)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.RampUp called on score.go at line "+lineNumb)
 
@@ -216,20 +252,20 @@ func Analyze(url string, client *http.Client) Module {
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.ResponsiveMaintainer called on score.go at line "+lineNumb)
 
-		license = false 
+		license = false
 		// license = metrics.license(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.License called on score.go at line "+lineNumb)
 
 		//NEW STUFF
 
-		versionPinning_score = metrics.versionPinning(gitUrl)
+		versionPinning_score = metrics.VersionPinning(dir)
 		// versionPinning_score = 10
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.versionPinning called on score.go at line "+lineNumb)
 
-		codeReviews_score = metrics.codeReviews(gitUrl)
-		// codeReviews_score = 10
+		// codeReviews_score = metrics.CodeReviews(gitUrl)
+		codeReviews_score = 0
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.codeReviews called on score.go at line "+lineNumb)
 
@@ -257,3 +293,6 @@ func Analyze(url string, client *http.Client) Module {
 	m := Module{url, netScore, rampUp, correctnessScore, busFactor, responsiveMaintainer, license, versionPinning_score, codeReviews_score}
 	return m
 }
+
+
+//"curl -s -i -H "Authorization: token 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 https://api.github.com/search/issues?q=repo:cloudinary/cloudinary_npm+type:issue+state:closed

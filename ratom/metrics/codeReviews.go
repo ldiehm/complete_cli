@@ -7,7 +7,7 @@ import (
 )
 
 
-func codeReviews(gitUrl string) float32 {
+func CodeReviews(gitUrl string) float32 {
 	fmt.Println(gitUrl)
 	fmt.Println("codeReviews called")
 	

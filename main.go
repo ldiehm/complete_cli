@@ -12,8 +12,8 @@ import (
 	"ece461-project-cli/ratom"
 	"ece461-project-cli/ratom/metrics"
 	"golang.org/x/oauth2"
-	// "github.com/paingp/ece461-project-cli/ratom"
-	// "github.com/paingp/ece461-project-cli/ratom/metrics"
+	// "github.com/ldiehm/complete_cli/ratom"
+	// "github.com/ldiehm/complete_cli/ratom/metrics"
 	// "golang.org/x/oauth2"
 )
 
@@ -168,7 +168,7 @@ func main() {
 		if modules[a].License {
 			b = 1
 		}
-		fmt.Printf("{\"URL\":\"%s\", \"NET_SCORE\":%1.1f, \"RAMP_UP_SCORE\":%1.1f, \"CORRECTNESS_SCORE\":%1.1f, \"BUS_FACTOR_SCORE\":%1.1f, \"RESPONSIVE_MAINTAINER_SCORE\":%1.1f, \"LICENSE_SCORE\":%d}\n", modules[a].Url, modules[a].NetScore, modules[a].RampUp, modules[a].Correctness, modules[a].BusFactor, modules[a].RespMaint, b)
+		fmt.Printf("{\"URL\":\"%s\", \"NET_SCORE\":%1.1f, \"RAMP_UP_SCORE\":%1.1f, \"CORRECTNESS_SCORE\":%1.1f, \"BUS_FACTOR_SCORE\":%1.1f, \"RESPONSIVE_MAINTAINER_SCORE\":%1.1f, \"LICENSE_SCORE\":%d, \"VERSION PINNING SCORE\":%d}\n", modules[a].Url, modules[a].NetScore, modules[a].RampUp, modules[a].Correctness, modules[a].BusFactor, modules[a].RespMaint, modules[a].versionPinning_score, b)
 		//fmt.Println(modules[a])
 	}
 
