@@ -9,12 +9,14 @@ to analyze, rank, and sort based on a variety of factors.
 3) Responsive Maintainer: How responsive maintainers of the module are
 4) Ramp-up Time: How easy it is for engineers to learn to use the module
 5) License Compatibility: Compatibility with GNU Lesser General Public License v2.1 (LGPLv2.1)
-6) Net Score: Weighted sum of first five factors
+6) Version Pinning: The percent of dependencies that are pinned to a major and minor version
+7) Code Reviews: The amount of recent pull requests that were approved with a code review (last 100 to reflect modern repo trends)
+8) Net Score: Weighted sum of first five factors
 
 #### Run Commands
 1) ./run install: Installs the dependencies and returns exit 0 on success or 1 on failure
 2) ./run build: Completes any compilation and returns exit 0 on success or 1 on failure
-3) ./run URL_FILE: Takes in a text file of URLS and scores an analyzes them for each of the factors above
+3) ./run URL: Takes in a GitHub or npm URL and scores the repository for each of the metrics listed above
 4) ./run test: runs a test suite, tests passed/tests total, coverage and returns exit 0 on success or 1 on failures
 
 #### How To Run Application

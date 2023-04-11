@@ -8,15 +8,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
 	"strings"
-
-	"github.com/estebangarcia21/subprocess"
-
 	"github.com/shurcooL/githubv4"
 
 	"github.com/go-git/go-git/v5"
@@ -51,7 +47,6 @@ func getGithubUrl(url string) string {
 		npmEndpoint = strings.Replace(npmEndpoint, "package/", "", 1)
 
 		resp, err := http.Get(npmEndpoint)
-
 		if err != nil {
 			return ""
 		}
@@ -70,7 +65,7 @@ func getGithubUrl(url string) string {
 			_ = json.Unmarshal(resBytes, &npmRes)
 			
 			//Checking for existence of GitHub url
-			if (npmRes["bugs"] == nil){
+			if npmRes["bugs"] == nil{
 				metrics.Functions = append(metrics.Functions, "Module is not hosted on GitHub or link cannot be found on line "+metrics.File_line())
 				return ""
 			}
@@ -78,7 +73,7 @@ func getGithubUrl(url string) string {
 			bugs := npmRes["bugs"].(map[string]interface{})
 			npmEndpoint = bugs["url"].(string)
 
-			if (npmEndpoint == ""){
+			if npmEndpoint == ""{
 				return ""
 			}
 
@@ -117,37 +112,17 @@ func Clone(repo string) string {
 
 	_, err = git.PlainClone(dir, false, &git.CloneOptions{
 		URL:          repo + ".git",
-		SingleBranch: true,
+		SingleBranch: false,
 		Depth:        1,
 	})
 
 	if err != nil {
+		metrics.Functions = append(metrics.Functions, "Can't clone "+repo+".git")
 		log.Fatal(err)
 		return "err"
 	}
 	return dir
 }
-
-func runGraphAPI(url string) string{
-	fmt.Println(url)
-	command := "python3 ratom/metrics/GraphQL.py " + url
-	r := subprocess.New(command, subprocess.Shell)
-	r.Exec()
-
-	dat, err := os.ReadFile("QueryOutput.txt")
-	if err != nil {
-		fmt.Println("PANICCCCCC")
-		// metrics.Functions = append(metrics.Functions, "Can't find valid endpoint for input: "+url)
-		return "FAIL"
-	}
-	command = "rm QueryOutput.txt"
-	r = subprocess.New(command, subprocess.Shell)
-	r.Exec()
-
-
-	return string(dat)
-}
-
 
 //Function to find and analyze the validity of the http url input
 func Analyze(url string, client *http.Client) Module {
@@ -170,11 +145,8 @@ func Analyze(url string, client *http.Client) Module {
 	}
 
 	dir := Clone(gitUrl)
-	fmt.Println(gitUrl)
 
 	endpoint := getEndpoint(gitUrl)
-	fmt.Println(dir)
-	fmt.Println(endpoint)
 	
 	lineNumb := metrics.File_line()
 	metrics.Functions = append(metrics.Functions, "Function: getEndpoint called on score.go at line "+lineNumb)
@@ -228,33 +200,23 @@ func Analyze(url string, client *http.Client) Module {
 		}
 
 
-		graphAPI_data := runGraphAPI(gitUrl)
-
-		fmt.Println(graphAPI_data)
-
-
 		//Metric function line call with respective metric scores
-		// correctnessScore = 4
 		correctnessScore = metrics.Correctness(jsonRes)
 		lineNumb := metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.Correctness called on score.go at line "+lineNumb)
 
-		// busFactor = 4
 		busFactor = metrics.BusFactor(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.BusFactor called on score.go at line "+lineNumb)
 
-		// rampUp = 4
 		rampUp = metrics.RampUp(jsonRes, Data.Repository.CommitComments.TotalCount)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.RampUp called on score.go at line "+lineNumb)
 
-		// responsiveMaintainer = 4
 		responsiveMaintainer = metrics.ResponsiveMaintainer(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.ResponsiveMaintainer called on score.go at line "+lineNumb)
 
-		// license = false
 		license = metrics.License(dir)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.License called on score.go at line "+lineNumb)
@@ -262,16 +224,13 @@ func Analyze(url string, client *http.Client) Module {
 		//NEW STUFF
 
 		versionPinning_score = metrics.VersionPinning(dir)
-		// versionPinning_score = 10
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.versionPinning called on score.go at line "+lineNumb)
 
-		// codeReviews_score = metrics.CodeReviews(gitUrl)
-		codeReviews_score = 5
+		codeReviews_score = metrics.CodeReviews(gitUrl)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.codeReviews called on score.go at line "+lineNumb)
 
-		// netScore = 4
 		netScore = metrics.NetScore(correctnessScore, busFactor, rampUp, responsiveMaintainer, license, versionPinning_score, codeReviews_score)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.NetScore called on score.go at line "+lineNumb)
