@@ -34,10 +34,12 @@ type Module struct {
 	Correctness float32
 	BusFactor   float32
 	RespMaint   float32
+	VersionPinning_score float32
+	CodeReviews_score float32
+
 	License     bool
 
-	versionPinning_score float32
-	codeReviews_score float32
+	
 }
 //Function to get the GitHub URL from the npmurl input
 func getGithubUrl(url string) string {
@@ -164,7 +166,7 @@ func Analyze(url string, client *http.Client) Module {
 	//Checking for url availability
 	if gitUrl == "" {
 		metrics.Functions = append(metrics.Functions, "Can't find valid endpoint for input: "+url)
-		return Module{url, -1, -1, -1, -1, -1, false, -1, -1}
+		return Module{url, -1, -1, -1, -1, -1, -1, -1, false}
 	}
 
 	dir := Clone(gitUrl)
@@ -182,7 +184,7 @@ func Analyze(url string, client *http.Client) Module {
 	//Error checking for invalid endpoint
 	if error != nil {
 		metrics.Functions = append(metrics.Functions, "HTTP GET request to  "+endpoint+" returns an error on line "+metrics.File_line())
-		return Module{url, -1, -1, -1, -1, -1, false, -1, -1}
+		return Module{url, -1, -1, -1, -1, -1, -1, -1, false}
 	}
 
 	if resp.StatusCode == http.StatusOK {
@@ -232,8 +234,8 @@ func Analyze(url string, client *http.Client) Module {
 
 
 		//Metric function line call with respective metric scores
-		correctnessScore = 4
-		// correctnessScore = metrics.correctnessScore(jsonRes)
+		// correctnessScore = 4
+		correctnessScore = metrics.Correctness(jsonRes)
 		lineNumb := metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.Correctness called on score.go at line "+lineNumb)
 
@@ -242,18 +244,18 @@ func Analyze(url string, client *http.Client) Module {
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.BusFactor called on score.go at line "+lineNumb)
 
-		rampUp = 4
+		// rampUp = 4
 		rampUp = metrics.RampUp(jsonRes, Data.Repository.CommitComments.TotalCount)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.RampUp called on score.go at line "+lineNumb)
 
-		responsiveMaintainer = 4
-		// responsiveMaintainer = metrics.responsiveMaintainer(jsonRes)
+		// responsiveMaintainer = 4
+		responsiveMaintainer = metrics.ResponsiveMaintainer(jsonRes)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.ResponsiveMaintainer called on score.go at line "+lineNumb)
 
-		license = false
-		// license = metrics.license(jsonRes)
+		// license = false
+		license = metrics.License(dir)
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.License called on score.go at line "+lineNumb)
 
@@ -265,7 +267,7 @@ func Analyze(url string, client *http.Client) Module {
 		metrics.Functions = append(metrics.Functions, "Function: metrics.versionPinning called on score.go at line "+lineNumb)
 
 		// codeReviews_score = metrics.CodeReviews(gitUrl)
-		codeReviews_score = 0
+		codeReviews_score = 5
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.codeReviews called on score.go at line "+lineNumb)
 
@@ -274,6 +276,7 @@ func Analyze(url string, client *http.Client) Module {
 		lineNumb = metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: metrics.NetScore called on score.go at line "+lineNumb)
 	
+		defer os.RemoveAll(dir)
 
 	
 		} else {
@@ -284,15 +287,17 @@ func Analyze(url string, client *http.Client) Module {
 		busFactor = -1.0
 		responsiveMaintainer = -1.0
 		license = false
+		versionPinning_score = -1.0
+		codeReviews_score = -1
 
 		metrics.Functions = append(metrics.Functions, "Invalid endpoint / URL given could not retrieve API data!")
 	}
 
 	defer resp.Body.Close()
 
-	m := Module{url, netScore, rampUp, correctnessScore, busFactor, responsiveMaintainer, license, versionPinning_score, codeReviews_score}
+	m := Module{url, netScore, rampUp, correctnessScore, busFactor, responsiveMaintainer, versionPinning_score, codeReviews_score, license}
 	return m
 }
 
 
-//"curl -s -i -H "Authorization: token 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 https://api.github.com/search/issues?q=repo:cloudinary/cloudinary_npm+type:issue+state:closed
+

@@ -72,8 +72,6 @@ func License(directory string) bool {
 	}
 	licenses := [9]string{"MIT", "LGPLv2.1", "Expat", "X11", "MPL-2.0", "Mozilla Public", "Artistic License 2", "GPLv2", "GPLv3"}
 
-	defer os.RemoveAll(directory)
-
 	// String matching for license names
 	for i := 0; i < len(text); i++ {
 		//fmt.Println(text[i])
