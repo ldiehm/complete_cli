@@ -4,7 +4,7 @@ import (
 	"math"
 )
 
-// This function uses rest and graphQL through the GITHUB API 
+// This function uses rest and graphQL through the GITHUB API
 // to collect data pertaining to the Correctness factor, then analyzes
 // the data and returns a weighted sum of the scores
 func Correctness(jsonRes map[string]interface{}) float32 {
@@ -15,7 +15,6 @@ func Correctness(jsonRes map[string]interface{}) float32 {
 	// Collecting data from API
 	stargazers := jsonRes["stargazers_count"].(float64)
 	forksNum := jsonRes["forks_count"].(float64)
-	subscriberCount := jsonRes["subscribers_count"].(float64)
 
 	// Analysis of owner type
 	owner_map := jsonRes["owner"].(map[string]interface{})
@@ -33,20 +32,32 @@ func Correctness(jsonRes map[string]interface{}) float32 {
 	}
 
 	// Assigning weights to stargazers
-	stargazers = math.Log10(stargazers) // Finding log of stargazers
-	stargazers = stargazers / 25
-	stargazers = math.Min(1, stargazers) // Capping stargazers at 1
+	if stargazers >= 10000 {
+		stargazers = 0.25
+	} else if stargazers >= 1000 {
+		stargazers = 0.2
+	} else if stargazers >= 500 {
+		stargazers = 0.15
+	} else {
+		stargazers = 0.05
+	}
 
 	// Assigning weights to forks
-	forksNum = math.Log10(forksNum) 
-	forksNum = forksNum / 25
-	forksNum = math.Min(1, forksNum)
+	if forksNum >= 10000 {
+		forksNum = 0.35
+	} else if forksNum >= 1000 {
+		forksNum = 0.3
+	} else if forksNum >= 100 {
+		forksNum = 0.2
+	} else if forksNum >= 50 {
+		forksNum = 0.15
+	} else if forksNum >= 25 {
+		forksNum = 0.1
+	} else {
+		forksNum = 0.05
+	}
 
-	// Assigning weights to subscriber count
-	subscriberCount = math.Log10(subscriberCount)
-	subscriberCount = subscriberCount / 25
-	subscriberCount = math.Min(1, subscriberCount)
+	total := math.Max(0.1, ownerType+webCommit+stargazers+forksNum)
 
-	total := math.Min(1, ownerType + webCommit + stargazers + forksNum + subscriberCount)
 	return float32(total)
 }
