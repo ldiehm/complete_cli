@@ -16,6 +16,7 @@ import (
 func main() {
 
 	inputString_url := os.Args[1]
+	dir := os.Args[2]
 
 	// Create a token to and HTTP client to access the GitHub API
 	src := oauth2.StaticTokenSource(
@@ -24,15 +25,15 @@ func main() {
 	httpClient := oauth2.NewClient(context.Background(), src)
 
 	// Create temp directory to store the directories for each of the repositories
-	_, err := os.Stat("temp")
-	if !os.IsNotExist(err) {
-		os.RemoveAll("temp")
-	}
+	// _, err := os.Stat("temp")
+	// if !os.IsNotExist(err) {
+	// 	os.RemoveAll("temp")
+	// }
 
-	err = os.Mkdir("temp", 0770) // read, write, and execute access for file owner and group owner
-	if err != nil {
-		panic("Error creating temp directory")
-	}
+	// err = os.Mkdir("temp", 0770) // read, write, and execute access for file owner and group owner
+	// if err != nil {
+	// 	panic("Error creating temp directory")
+	// }
 
 	// Determine log level
 	logLevel, err := strconv.Atoi(os.Getenv("LOG_LEVEL"))
@@ -49,7 +50,7 @@ func main() {
 		// url := scanner.Text()
 		metrics.Functions = append(metrics.Functions, "-------------------------------------")
 		metrics.Functions = append(metrics.Functions, "For URL: "+inputString_url)
-		module := ratom.Analyze(inputString_url, httpClient)
+		module := ratom.Analyze(inputString_url, httpClient, dir)
 		lineNumb := metrics.File_line()
 		metrics.Functions = append(metrics.Functions, "Function: ratom.Analyze called on main.go at line "+lineNumb)
 
@@ -57,7 +58,7 @@ func main() {
 		//urls = append(urls, url)
 	// }
 
-	os.RemoveAll("temp")
+	// os.RemoveAll("temp")
 
 	// Sorting the modules by decreasing net score
 	sort.SliceStable(modules, func(i, j int) bool {
