@@ -1264,3 +1264,57 @@ Output:
 {https://github.com/expressjs/express 0.60365003 0.72499996 0.8 0.8 0.656 0 0.51 true}
 
 
+-------------------------------------
+For URL: https://github.com/expressjs/express
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 205
+Function: metrics.BusFactor called on score.go at line 209
+Function: metrics.RampUp called on score.go at line 213
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 221
+Function: metrics.versionPinning called on score.go at line 227
+Function: metrics.codeReviews called on score.go at line 231
+Function: metrics.NetScore called on score.go at line 235
+Function: ratom.Analyze called on main.go at line 54
+Function: SliceStable called on main.go at line 67
+
+Output:
+{https://github.com/expressjs/express 0.52715003 0.72499996 0.8 0.8 0.656 0 0 true}
+
+
+-------------------------------------
+For URL: https://github.com/expressjs/express
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 205
+Function: metrics.BusFactor called on score.go at line 209
+Function: metrics.RampUp called on score.go at line 213
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 221
+Function: metrics.versionPinning called on score.go at line 227
+Function: metrics.codeReviews called on score.go at line 231
+Function: metrics.NetScore called on score.go at line 235
+Function: ratom.Analyze called on main.go at line 54
+Function: SliceStable called on main.go at line 67
+
+Output:
+{https://github.com/expressjs/express 0.60365003 0.72499996 0.8 0.8 0.656 0 0.51 true}
+
+
+-------------------------------------
+For URL: https://github.com/expressjs/express
+Function: getEndpoint called on score.go at line 151
+Function: metrics.Correctness called on score.go at line 205
+Function: metrics.BusFactor called on score.go at line 209
+Function: metrics.RampUp called on score.go at line 213
+Function: metrics.ResponsiveMaintainer called on score.go at line 217
+Function: metrics.License called on score.go at line 221
+Function: metrics.versionPinning called on score.go at line 227
+Function: metrics.codeReviews called on score.go at line 231
+Function: metrics.NetScore called on score.go at line 235
+Function: ratom.Analyze called on main.go at line 54
+Function: SliceStable called on main.go at line 67
+
+Output:
+{https://github.com/expressjs/express 0.60365003 0.72499996 0.8 0.8 0.656 0 0.51 true}
+
+
